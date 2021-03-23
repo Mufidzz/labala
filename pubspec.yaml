@@ -1,0 +1,42 @@
+name: labala
+description: A Goods Trading Application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http : ^0.13.0
+  cupertino_icons: ^1.0.2
+  intl: ">=0.14.0"
+  auto_route: ^0.6.9
+  shared_preferences: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  auto_route_generator: ^0.6.10
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - lib/core/assets/logo-wh.png
+   - lib/core/assets/logo-fc.png
+   - lib/core/assets/login-background.png
+   - lib/core/assets/green-background.png
+   - lib/core/assets/green-background-long.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/core/assets/fonts/Poppins-Regular.ttf
+        - asset: lib/core/assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: lib/core/assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
